@@ -1,0 +1,159 @@
+/* Styles communs à l'ensemble de l'application */
+body {
+  background-image: linear-gradient(to bottom right, #FFE53B, #00FFFF);
+  background-image: url(../src/assets/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.btn-outline-primary {
+  border-color: white;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #FF6767;
+  border-color: #FF6767;
+}
+
+
+/* Styles spécifiques au composant "Profile" */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  margin-top: 50px;
+  max-width: 750px; /* Réduire la largeur du conteneur */
+  margin-left: 155px; /* Ajouter une marge gauche négative */
+
+  
+
+  
+}
+
+.fs-1 {
+  color: #070808;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.form-label {
+  color: rgb(0, 0, 0);
+}
+
+.text-white {
+  color: black;
+}
+
+.fs-4 {
+  color: black;
+}
+
+/* Styles spécifiques au composant "Register" */
+.register-form {
+  /* Ajoutez les styles spécifiques pour la page d'inscription ici */
+  /* Par exemple : */
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+.btn-primary { /* Couleur du bouton "Register" ajustée */
+  background-color: rgb(23, 180, 146);
+  border-color: white;
+}
+.btn-primary:hover {
+  background-color: rgb(23, 180, 146);
+}
+
+
+
+
+
+
+/* Styles spécifiques au composant "Login" */
+.login-form {
+  /* Ajoutez les styles spécifiques pour la page de connexion ici */
+  /* Par exemple : */
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+.btn-primary {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+.login__register {
+  color: black;
+}
+
+
+
+
+
+
+/* Styles spécifiques au composant "Admin" */
+.admin-container {
+  /* Ajoutez les styles spécifiques pour la page d'administration ici */
+  /* Par exemple : */
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.table {
+  background-color: transparent;
+}
+
+.table th, .table td {
+  border-color: black;
+  color: black;
+}
+
+.navbar {
+  background-image: url('../src/assets/logo.png'); /* Adjust the path to your image */
+  background-size: auto 80px; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  height: 60px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+}
+
+/* Additional styles as needed */
+.navbar-brand {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.btn-outline-primary {
+  border-color: white;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #FF6767;
+  border-color: #FF6767;
+}
